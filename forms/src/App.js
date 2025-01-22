@@ -117,7 +117,7 @@ function App() {
                 />
                 <br/>
         <fieldset className="mt-4">
-        <legend className="text-center font-bold mb-1">By Email</legend>
+        <legend className="text-center font-bold mb-3">By Email</legend>
 
         <div className="ml-4">
         <input type="checkbox"
@@ -162,7 +162,7 @@ function App() {
         <br/>            
 
         <fieldset className="mt-4">
-          <legend className="text-center font-bold mb-1">
+          <legend className="text-center font-bold mb-3">
             Push Notifications
           </legend>
           <div className="ml-4">
@@ -201,7 +201,7 @@ function App() {
         </fieldset>
         <div className="flex flex-col items-center">
         <button
-        className="bg-blue-500 text-white font-bold px-2 outline-none border-sky-100 rounded-[40px] w-[200px] mb-6 mt-6 py-4 hover:bg-blue-800 transition-all duration-500"
+        className="bg-violet-600 text-white font-bold px-2 outline-none border-sky-100 rounded-[40px] w-[200px] mb-6 mt-6 py-4 hover:bg-violet-800 transition-all duration-500"
         >Save</button>
         </div>
         
