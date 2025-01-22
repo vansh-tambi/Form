@@ -117,7 +117,7 @@ function App() {
                 />
                 <br/>
         <fieldset className="mt-4">
-        <legend className="text-center">By Email</legend>
+        <legend className="text-center font-bold mb-1">By Email</legend>
 
         <div className="ml-4">
         <input type="checkbox"
@@ -129,7 +129,7 @@ function App() {
           />
       
             <label htmlFor="comments" className="px-2 ">Comments</label>
-            <p className="font-thin text-[13px] ml-5">Get notified when someones post a comment on posting.</p>
+            <p className="font-thin text-[11px] ml-5 mb-2">Get notified when someones post a comment on posting.</p>
        
      
           
@@ -143,7 +143,7 @@ function App() {
           />
             
             <label htmlFor="candidates" className="px-2">Candidates</label>
-            <p className="font-thin text-[13px] ml-5">Get notified when a candidate applies for a job.</p>
+            <p className="font-thin text-[11px] ml-5 mb-2">Get notified when a candidate applies for a job.</p>
           
 
           <input type="checkbox"
@@ -155,14 +155,14 @@ function App() {
           />
         
             <label htmlFor="offers" className="px-2">Offers</label>
-            <p className="font-thin text-[13px] ml-5">Get notified when a candidate accepts or rejects an offer.</p>
+            <p className="font-thin text-[11px] ml-5">Get notified when a candidate accepts or rejects an offer.</p>
         </div>
           
         </fieldset>         
         <br/>            
 
         <fieldset className="mt-4">
-          <legend className="text-center">
+          <legend className="text-center font-bold mb-1">
             Push Notifications
           </legend>
           <div className="ml-4">
@@ -201,7 +201,7 @@ function App() {
         </fieldset>
         <div className="flex flex-col items-center">
         <button
-        className="bg-blue-500 text-white font-bold px-2 outline-none  border-violet-500 border-[1px] rounded-[40px] w-[200px] mb-6 mt-6 py-4 hover:bg-blue-800 transition-all duration-500"
+        className="bg-blue-500 text-white font-bold px-2 outline-none border-sky-100 rounded-[40px] w-[200px] mb-6 mt-6 py-4 hover:bg-blue-800 transition-all duration-500"
         >Save</button>
         </div>
         
